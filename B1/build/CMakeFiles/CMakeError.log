@@ -1,0 +1,33 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/users/c/coppinp/bee/GeantExamples/B1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9cab2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9cab2.dir/build.make CMakeFiles/cmTC_9cab2.dir/build
+gmake[1]: Map '/dpnc/beegfs/users/coppinp/GeantExamples/B1/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building C object CMakeFiles/cmTC_9cab2.dir/CheckSymbolExists.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_9cab2.dir/CheckSymbolExists.c.o   -c /home/users/c/coppinp/bee/GeantExamples/B1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9cab2
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cab2.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      CMakeFiles/cmTC_9cab2.dir/CheckSymbolExists.c.o  -o cmTC_9cab2 
+CMakeFiles/cmTC_9cab2.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_9cab2] Fout 1
+gmake[1]: Map '/dpnc/beegfs/users/coppinp/GeantExamples/B1/build/CMakeFiles/CMakeTmp' wordt verlaten
+gmake: *** [cmTC_9cab2/fast] Fout 2
+
+File /home/users/c/coppinp/bee/GeantExamples/B1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
