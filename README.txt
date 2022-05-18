@@ -19,3 +19,5 @@ Has to be run on Baobab or Yggdrasil (not compiling on gridvm10 atm)
     Will generate cross sections
     > ./Hadr00 hadr00.in QGSP_BERT > Hadro00.out
         i.e. program inputfile physicsmodel > outputfile
+        Hadr01:
+            Consistency check that results is independent of /testhadr/TargetRadius, /testhadr/TargetLength, and /gun/energy

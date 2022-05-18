@@ -1,0 +1,24 @@
+20,21c20,21
+< /testhadr/TargetRadius 2 cm
+< /testhadr/TargetLength 50 cm
+---
+> /testhadr/TargetRadius 20 cm
+> /testhadr/TargetLength 5 cm
+26c26
+< ### Target consist of G4_Al disks with R(mm)= 20  fLength(mm)= 500  ###
+---
+> ### Target consist of G4_Al disks with R(mm)= 200  fLength(mm)= 50  ###
+57c57
+< /gun/energy 20. GeV
+---
+> /gun/energy 200. GeV
+836c836
+<   User=0.020000s Real=0.021185s Sys=0.000000s
+---
+>   User=0.000000s Real=0.001282s Sys=0.000000s
+1647,1648c1647,1648
+< Number of memory pools allocated: 11; of which, static: 0
+< Dynamic pools deleted: 11 / Total memory freed: 0.037 MB
+---
+> Number of memory pools allocated: 9; of which, static: 0
+> Dynamic pools deleted: 9 / Total memory freed: 0.015 MB
