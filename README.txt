@@ -17,7 +17,11 @@ Has to be run on Baobab or Yggdrasil (not compiling on gridvm10 atm)
 
 - Hadr00 example:
     Will generate cross sections
-    > ./Hadr00 hadr00.in QGSP_BERT > Hadro00.out
+    > ./Hadr00 hadr00.in QGSP_BERT > hadr00.out
+      ./Hadr00 hadr00.in FTFP > hadr00.out
         i.e. program inputfile physicsmodel > outputfile
         Hadr01:
             Consistency check that results is independent of /testhadr/TargetRadius, /testhadr/TargetLength, and /gun/energy
+
+
+Geant4 docu: https://geant4-dev.web.cern.ch/docs/

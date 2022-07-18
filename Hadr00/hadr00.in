@@ -17,10 +17,12 @@
 /run/initialize
 /process/em/workerVerbose 0
 #
-/gun/particle proton
+#/gun/particle proton
+/gun/particle ion 2 4 2 0
+# N_p N_p+n charge ion_excitation_energy
+#    See: https://geant4-forum.web.cern.ch/t/how-to-specify-a-few-ion-source-such-as-12c-28si-using-class-g4particlegun/4213/6
+#    and https://indico.lip.pt/event/681/contributions/2094/attachments/1901/2533/PrimaryGenerator_Geant4_Braga2020.pdf
 /gun/energy 20. GeV
-#/testhadr/HistoType  root
-#/testhadr/HistoName  p_al
 /testhadr/verbose 1
 /run/beamOn 10
 #
