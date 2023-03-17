@@ -1206,6 +1206,7 @@ CMakeFiles/Hadr00.dir/src/HistoManager.cc.o
  /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4HnInformation.hh
  /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4HnManager.hh
  /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4ICRU90StoppingData.hh
+ /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4IonTable.hh
  /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4IonisParamElm.hh
  /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4IonisParamMat.hh
  /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4Ions.hh

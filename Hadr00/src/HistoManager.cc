@@ -50,6 +50,7 @@
 #include "G4ios.hh"
 #include "G4ParticleDefinition.hh"
 #include "G4ParticleTable.hh"
+#include "G4IonTable.hh"
 #include "G4NistManager.hh"
 #include "G4HadronicProcessStore.hh"
 
@@ -71,7 +72,7 @@ HistoManager::HistoManager()
   fMessenger = new HistoManagerMessenger(this);
   fVerbose   = 1;
 
-  fParticleName  = "proton";
+  fParticleName  = "alpha";
   fElementName   = "Al";
 
   fTargetMaterial = 0;
@@ -151,8 +152,27 @@ void HistoManager::EndOfRun()
     G4NistManager::Instance()->FindOrBuildElement(fElementName);
   const G4Material* mat = 
     G4NistManager::Instance()->FindOrBuildMaterial("G4_"+fElementName);
-  const G4ParticleDefinition* particle = 
-    G4ParticleTable::GetParticleTable()->FindParticle(fParticleName);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  // const G4ParticleDefinition* particle = G4ParticleTable::GetParticleTable()->FindParticle(fParticleName);
+  const G4ParticleDefinition* particle = G4IonTable::GetIonTable()->GetIon(2, 4, 0);
+    
+    
+    
+    
+    
+    
+    
 
   G4cout << "### Fill Cross Sections for " << fParticleName 
          << " off " << fElementName

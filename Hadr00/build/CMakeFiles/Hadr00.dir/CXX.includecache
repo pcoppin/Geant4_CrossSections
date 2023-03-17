@@ -1710,6 +1710,24 @@ G4Material.hh
 G4LPhysicsFreeVector.hh
 /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4LPhysicsFreeVector.hh
 
+/cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4IonTable.hh
+cmath
+-
+vector
+-
+map
+-
+G4ios.hh
+/cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4ios.hh
+globals.hh
+/cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/globals.hh
+G4ParticleDefinition.hh
+/cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4ParticleDefinition.hh
+G4ParticleTable.hh
+/cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4ParticleTable.hh
+G4Ions.hh
+/cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4Ions.hh
+
 /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4IonisParamElm.hh
 G4ios.hh
 /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4/G4ios.hh
@@ -6045,6 +6063,8 @@ G4ParticleDefinition.hh
 /home/users/c/coppinp/bee/GeantExamples/Hadr00/src/G4ParticleDefinition.hh
 G4ParticleTable.hh
 /home/users/c/coppinp/bee/GeantExamples/Hadr00/src/G4ParticleTable.hh
+G4IonTable.hh
+/home/users/c/coppinp/bee/GeantExamples/Hadr00/src/G4IonTable.hh
 G4NistManager.hh
 /home/users/c/coppinp/bee/GeantExamples/Hadr00/src/G4NistManager.hh
 G4HadronicProcessStore.hh

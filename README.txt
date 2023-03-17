@@ -25,3 +25,4 @@ Has to be run on Baobab or Yggdrasil (not compiling on gridvm10 atm)
 
 
 Geant4 docu: https://geant4-dev.web.cern.ch/docs/
+Materials: https://www.fe.infn.it/u/paterno/Geant4_tutorial/slides_further/Geometry/G4_Nist_Materials.pdf
