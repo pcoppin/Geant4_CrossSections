@@ -21,17 +21,20 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4INTY_USE_XT"
   "G4LIB_BUILD_DLL"
+  "G4UI_USE"
   "G4UI_USE_TCSH"
+  "G4VERBOSE"
+  "G4VIS_USE"
   "G4VIS_USE_OPENGL"
   "G4VIS_USE_OPENGLX"
+  "G4_STORE_TRAJECTORY"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include/Geant4"
-  "../include"
-  "/cvmfs/dampe.cern.ch/centos7/opt/geant4.10.07/include"
+  "/cvmfs/dampe.cern.ch/centos7/opt/geant4/include/Geant4"
   "/cvmfs/dampe.cern.ch/centos7/include"
+  "../include"
   )
 
 # Targets to which this target links.

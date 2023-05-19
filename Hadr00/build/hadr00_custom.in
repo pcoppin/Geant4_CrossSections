@@ -1,0 +1,47 @@
+#================================================
+#     Macro file for hadr00
+#     06.06.2008 V.Ivanchneko
+#================================================
+/control/cout/ignoreThreadsExcept 0
+/control/verbose 1
+/run/verbose 1
+/tracking/verbose 0
+#
+
+/testhadr/verbose    1
+/testhadr/particle   alpha
+# e.g.  proton  pi+
+#/testhadr/particle alpha
+
+# Doesn't work: /testhadr/particle GenericIon 2 4
+
+
+#  IMPORTANT: go modify Hadr00/src/HistoManager.cc to select either a mode 
+#    in which we provide the particle name here (proton;alpha) or run with ions!!!!
+
+/testhadr/targetElm        Bi
+/testhadr/TargetMat        G4_Bi
+/testhadr/TargetRadius     2  cm
+/testhadr/TargetLength     50 cm
+
+/testhadr/minEnergy   1 keV
+/testhadr/maxEnergy   10000 TeV
+
+
+/run/printProgress 10
+/run/setCut           1 km
+#
+/testhadr/RadDecay true
+/run/initialize
+/process/em/workerVerbose 0
+#
+#/gun/particle proton
+#/gun/particle ion
+#/gun/ion 20 40 0 0
+# N_p N_p+n charge ion_excitation_energy
+#    See: https://geant4-forum.web.cern.ch/t/how-to-specify-a-few-ion-source-such-as-12c-28si-using-class-g4particlegun/4213/6
+#    and https://indico.lip.pt/event/681/contributions/2094/attachments/1901/2533/PrimaryGenerator_Geant4_Braga2020.pdf
+/gun/energy 20. GeV
+/testhadr/verbose 1
+/run/beamOn 10
+#
