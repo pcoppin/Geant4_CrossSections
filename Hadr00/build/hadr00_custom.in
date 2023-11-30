@@ -9,8 +9,8 @@
 #
 
 /testhadr/verbose    1
-/testhadr/particle   alpha
-# e.g.  proton  pi+
+/testhadr/particle   proton
+# e.g.  proton  pi+ alpha
 #/testhadr/particle alpha
 
 # Doesn't work: /testhadr/particle GenericIon 2 4

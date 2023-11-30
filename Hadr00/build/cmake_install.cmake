@@ -1,4 +1,4 @@
-# Install script for directory: /home/users/c/coppinp/bee/GeantExamples/Hadr00
+# Install script for directory: /atlas/users/coppinp/bee/GeantExamples/Hadr00
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Hadr00"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/users/c/coppinp/bee/GeantExamples/Hadr00/build/Hadr00")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/atlas/users/coppinp/bee/GeantExamples/Hadr00/build/Hadr00")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Hadr00" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Hadr00")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Hadr00"
-         OLD_RPATH "/cvmfs/dampe.cern.ch/centos7/opt/geant4/lib64:"
+         OLD_RPATH "/cvmfs/dampe.cern.ch/centos7/opt/geant4.10.03p02/lib64:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Hadr00")
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/users/c/coppinp/bee/GeantExamples/Hadr00/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/atlas/users/coppinp/bee/GeantExamples/Hadr00/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

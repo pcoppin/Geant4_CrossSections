@@ -4,7 +4,7 @@
 # compile CXX with /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++
 CXX_FLAGS = -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -DG4USE_STD11 -std=c++11 -O3 -DNDEBUG -fno-trapping-math -ftree-vectorize -fno-math-errno   -std=c++11
 
-CXX_DEFINES = -DG4INTY_USE_XT -DG4LIB_BUILD_DLL -DG4UI_USE -DG4UI_USE_TCSH -DG4VERBOSE -DG4VIS_USE -DG4VIS_USE_OPENGL -DG4VIS_USE_OPENGLX -DG4_STORE_TRAJECTORY
+CXX_DEFINES = -DG4INTY_USE_QT -DG4INTY_USE_XT -DG4UI_USE -DG4UI_USE_QT -DG4UI_USE_TCSH -DG4VERBOSE -DG4VIS_USE -DG4VIS_USE_OPENGL -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4_STORE_TRAJECTORY
 
-CXX_INCLUDES = -isystem /cvmfs/dampe.cern.ch/centos7/opt/geant4/include/Geant4 -isystem /cvmfs/dampe.cern.ch/centos7/include -I/home/users/c/coppinp/bee/GeantExamples/Hadr00/include 
+CXX_INCLUDES = -isystem /cvmfs/dampe.cern.ch/centos7/opt/geant4.10.03p02/include/Geant4 -isystem /cvmfs/dampe.cern.ch/centos7/include -isystem /usr/include/QtCore -isystem /usr/include/QtGui -isystem /usr/include/QtOpenGL -I/atlas/users/coppinp/bee/GeantExamples/Hadr00/include 
 

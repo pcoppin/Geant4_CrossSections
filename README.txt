@@ -2,16 +2,19 @@ Instructions to self:
 
 Examples copied from /cvmfs/dampe.cern.ch/centos7/opt/geant4/share/Geant4-10.5.1/examples
 
-Has to be run on Baobab or Yggdrasil (not compiling on gridvm10 atm)
+4.10.05p01 and 4.10.07 have to be run on Baobab or Yggdrasil (not compiling on gridvm10 atm)
+4.10.03p02 has to be run on gridvm12 (was missing some libraries which I added there)
 
     > cvmfs; dampe_init; echo $GEANT4_VERSION;
         or a different Geant environment, e.g.
         source setup_dampe-6-0-11_geant4.10.07.sh
+        source setup_cvmfs_with_Geant4-10.3.2.sh
     > cd ExampleName
     > mkdir build
     > cd build
     > cmake -DGeant4_DIR=${cvbase}/opt/geant4.10.05p01/share/Geant4-10.5.1 ..
            OR > cmake -DGeant4_DIR=${cvbase}/opt/geant4.10.07/share/Geant4-10.7.0 ..
+           IR > cmake -DGeant4_DIR=${cvbase}/opt/geant4.10.03p02/share/Geant4-10.3.2 ..
     > make
 
 

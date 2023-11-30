@@ -8,7 +8,7 @@ template="""/control/cout/ignoreThreadsExcept 0
 /tracking/verbose 0
 
 /testhadr/verbose    1
-/testhadr/particle   alpha
+/testhadr/particle   proton
 
 /testhadr/targetElm        {}
 /testhadr/TargetMat        G4_{}
