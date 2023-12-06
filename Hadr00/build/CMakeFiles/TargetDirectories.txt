@@ -1,7 +1,7 @@
-/atlas/users/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/install/strip.dir
-/atlas/users/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/install/local.dir
-/atlas/users/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/Hadr00.dir
-/atlas/users/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/edit_cache.dir
-/atlas/users/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/rebuild_cache.dir
-/atlas/users/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/install.dir
-/atlas/users/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/list_install_components.dir
+/home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/install/strip.dir
+/home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/edit_cache.dir
+/home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/Hadr00.dir
+/home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/install.dir
+/home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/rebuild_cache.dir
+/home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/list_install_components.dir
+/home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/install/local.dir

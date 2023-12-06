@@ -1,6 +1,6 @@
 #!/bin/bash
 
-primary="PROTON"
+primary="O16"
 
 # Put input particle in Gen_input_file.py if not running on ions !!!!!!!!
 for target in Bi C Ge H O Pb Si W

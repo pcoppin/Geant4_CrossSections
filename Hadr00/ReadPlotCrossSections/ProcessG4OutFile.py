@@ -29,7 +29,7 @@ for line in lines[start_index:]:
         for name, x in zip(variable_names,data_i):
             data[name].append( float(x) )
 
-with open("../ReadPlotCrossSections/CrossSections_10_03/Geant4_{}_{}_on_{}.txt".format(Model,Primary,Material), "w") as f:
+with open("../ReadPlotCrossSections/CrossSections_10_05/Geant4_{}_{}_on_{}.txt".format(Model,Primary,Material), "w") as f:
     f.write("# Energy (GeV)      Cross section (barn)\n")
     for E, s in zip(data['E(MeV)'],data['Inelastic(b)']):
         f.write("  {:<17.3e} {:.3e}\n".format(1e-3*E,s))
