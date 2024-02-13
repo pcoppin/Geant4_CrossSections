@@ -4,7 +4,7 @@
 /tracking/verbose 0
 
 /testhadr/verbose    1
-/testhadr/particle   proton
+/testhadr/particle   alpha
 
 /testhadr/targetElm        W
 /testhadr/TargetMat        G4_W

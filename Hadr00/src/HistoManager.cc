@@ -164,8 +164,8 @@ void HistoManager::EndOfRun()
     
     
     
-//   const G4ParticleDefinition* particle = G4ParticleTable::GetParticleTable()->FindParticle(fParticleName);
-  const G4ParticleDefinition* particle = G4IonTable::GetIonTable()->GetIon(8, 16, 0); // #Proton & #Proton+Neutrons
+  const G4ParticleDefinition* particle = G4ParticleTable::GetParticleTable()->FindParticle(fParticleName);
+//   const G4ParticleDefinition* particle = G4IonTable::GetIonTable()->GetIon(8, 16, 0); // #Proton & #Proton+Neutrons
     
     
     

@@ -1,4 +1,637 @@
-The system is: Linux - 4.18.0-477.27.1.el8_8.x86_64 - x86_64
+The system is: Linux - 3.10.0-1160.88.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/3.9.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/3.9.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_d3a6e/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_d3a6e.dir/build.make CMakeFiles/cmTC_d3a6e.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3a6e.dir/testCCompiler.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_d3a6e.dir/testCCompiler.c.o   -c /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d3a6e
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3a6e.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_d3a6e.dir/testCCompiler.c.o  -o cmTC_d3a6e 
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_ff426/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_ff426.dir/build.make CMakeFiles/cmTC_ff426.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff426.dir/CMakeCCompilerABI.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_ff426.dir/CMakeCCompilerABI.c.o   -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ff426
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff426.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_ff426.dir/CMakeCCompilerABI.c.o  -o cmTC_ff426 
+Using built-in specs.
+COLLECT_GCC=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-4/root/usr --mandir=/opt/rh/devtoolset-4/root/usr/share/man --infodir=/opt/rh/devtoolset-4/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-default-libstdcxx-abi=gcc4-compatible --with-isl=/builddir/build/BUILD/gcc-5.3.1-20160406/obj-x86_64-redhat-linux/isl-install --enable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 5.3.1 20160406 (Red Hat 5.3.1-6) (GCC) 
+COMPILER_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/
+LIBRARY_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/:/cvmfs/dampe.cern.ch/centos7/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib64/../lib64/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib/:/cvmfs/dampe.cern.ch/centos7/lib64/:/cvmfs/dampe.cern.ch/centos7/opt/conda/lib/:/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib/:./:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ff426' '-mtune=generic' '-march=x86-64'
+ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceZWId1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ff426 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_ff426.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_ff426/fast"]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_ff426.dir/build.make CMakeFiles/cmTC_ff426.dir/build]
+  ignore line: [gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ff426.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_ff426.dir/CMakeCCompilerABI.c.o   -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ff426]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff426.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_ff426.dir/CMakeCCompilerABI.c.o  -o cmTC_ff426 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-4/root/usr --mandir=/opt/rh/devtoolset-4/root/usr/share/man --infodir=/opt/rh/devtoolset-4/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-default-libstdcxx-abi=gcc4-compatible --with-isl=/builddir/build/BUILD/gcc-5.3.1-20160406/obj-x86_64-redhat-linux/isl-install --enable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.3.1 20160406 (Red Hat 5.3.1-6) (GCC) ]
+  ignore line: [COMPILER_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/:/cvmfs/dampe.cern.ch/centos7/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib64/../lib64/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib/:/cvmfs/dampe.cern.ch/centos7/lib64/:/cvmfs/dampe.cern.ch/centos7/opt/conda/lib/:/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib/:./:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ff426' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceZWId1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ff426 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_ff426.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o]
+    arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceZWId1.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ff426] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o] ==> ignore
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/lib/../lib64] ==> dir [/cvmfs/dampe.cern.ch/centos7/lib/../lib64]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64] ==> dir [/cvmfs/dampe.cern.ch/centos7/lib64/../lib64]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/lib] ==> dir [/cvmfs/dampe.cern.ch/centos7/lib]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/lib64] ==> dir [/cvmfs/dampe.cern.ch/centos7/lib64]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/conda/lib]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib]
+    arg [-L.] ==> ignore
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..]
+    arg [CMakeFiles/cmTC_ff426.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1] ==> [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc] ==> [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib/gcc]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/lib/../lib64] ==> [/cvmfs/dampe.cern.ch/centos7/lib64]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/lib64/../lib64] ==> [/cvmfs/dampe.cern.ch/centos7/lib64]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64] ==> [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/lib] ==> [/cvmfs/dampe.cern.ch/centos7/lib]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/lib64] ==> [/cvmfs/dampe.cern.ch/centos7/lib64]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/conda/lib] ==> [/cvmfs/dampe.cern.ch/centos7/opt/conda/lib]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib] ==> [/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..] ==> [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1;/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib/gcc;/cvmfs/dampe.cern.ch/centos7/lib64;/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib64;/lib64;/usr/lib64;/cvmfs/dampe.cern.ch/centos7/lib;/cvmfs/dampe.cern.ch/centos7/opt/conda/lib;/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib;/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_1bcf1/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_1bcf1.dir/build.make CMakeFiles/cmTC_1bcf1.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bcf1.dir/feature_tests.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_1bcf1.dir/feature_tests.c.o   -c /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1bcf1
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bcf1.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_1bcf1.dir/feature_tests.c.o  -o cmTC_1bcf1 
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_f5f83/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_f5f83.dir/build.make CMakeFiles/cmTC_f5f83.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5f83.dir/feature_tests.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_f5f83.dir/feature_tests.c.o   -c /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f5f83
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5f83.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_f5f83.dir/feature_tests.c.o  -o cmTC_f5f83 
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_11e6b/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_11e6b.dir/build.make CMakeFiles/cmTC_11e6b.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11e6b.dir/feature_tests.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_11e6b.dir/feature_tests.c.o   -c /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_11e6b
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e6b.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_11e6b.dir/feature_tests.c.o  -o cmTC_11e6b 
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_9d79c/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_9d79c.dir/build.make CMakeFiles/cmTC_9d79c.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d79c.dir/testCXXCompiler.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++     -o CMakeFiles/cmTC_9d79c.dir/testCXXCompiler.cxx.o -c /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9d79c
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d79c.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_9d79c.dir/testCXXCompiler.cxx.o  -o cmTC_9d79c 
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_942c3/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_942c3.dir/build.make CMakeFiles/cmTC_942c3.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_942c3.dir/CMakeCXXCompilerABI.cpp.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++     -o CMakeFiles/cmTC_942c3.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_942c3
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942c3.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_942c3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_942c3 
+Using built-in specs.
+COLLECT_GCC=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++
+COLLECT_LTO_WRAPPER=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-4/root/usr --mandir=/opt/rh/devtoolset-4/root/usr/share/man --infodir=/opt/rh/devtoolset-4/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-default-libstdcxx-abi=gcc4-compatible --with-isl=/builddir/build/BUILD/gcc-5.3.1-20160406/obj-x86_64-redhat-linux/isl-install --enable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 5.3.1 20160406 (Red Hat 5.3.1-6) (GCC) 
+COMPILER_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/
+LIBRARY_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/:/cvmfs/dampe.cern.ch/centos7/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib64/../lib64/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib/:/cvmfs/dampe.cern.ch/centos7/lib64/:/cvmfs/dampe.cern.ch/centos7/opt/conda/lib/:/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib/:./:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_942c3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc5zxUw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_942c3 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_942c3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_942c3/fast"]
+  ignore line: [/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_942c3.dir/build.make CMakeFiles/cmTC_942c3.dir/build]
+  ignore line: [gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_942c3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++     -o CMakeFiles/cmTC_942c3.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_942c3]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942c3.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_942c3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_942c3 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-4/root/usr --mandir=/opt/rh/devtoolset-4/root/usr/share/man --infodir=/opt/rh/devtoolset-4/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-default-libstdcxx-abi=gcc4-compatible --with-isl=/builddir/build/BUILD/gcc-5.3.1-20160406/obj-x86_64-redhat-linux/isl-install --enable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.3.1 20160406 (Red Hat 5.3.1-6) (GCC) ]
+  ignore line: [COMPILER_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/:/cvmfs/dampe.cern.ch/centos7/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib64/../lib64/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib/:/cvmfs/dampe.cern.ch/centos7/lib64/:/cvmfs/dampe.cern.ch/centos7/opt/conda/lib/:/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib/:./:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_942c3' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc5zxUw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_942c3 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_942c3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o]
+    arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccc5zxUw.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_942c3] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o] ==> ignore
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/lib/../lib64] ==> dir [/cvmfs/dampe.cern.ch/centos7/lib/../lib64]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64] ==> dir [/cvmfs/dampe.cern.ch/centos7/lib64/../lib64]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/lib] ==> dir [/cvmfs/dampe.cern.ch/centos7/lib]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/lib64] ==> dir [/cvmfs/dampe.cern.ch/centos7/lib64]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/conda/lib]
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib]
+    arg [-L.] ==> ignore
+    arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..]
+    arg [CMakeFiles/cmTC_942c3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1] ==> [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc] ==> [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib/gcc]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/lib/../lib64] ==> [/cvmfs/dampe.cern.ch/centos7/lib64]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/lib64/../lib64] ==> [/cvmfs/dampe.cern.ch/centos7/lib64]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64] ==> [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/lib] ==> [/cvmfs/dampe.cern.ch/centos7/lib]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/lib64] ==> [/cvmfs/dampe.cern.ch/centos7/lib64]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/conda/lib] ==> [/cvmfs/dampe.cern.ch/centos7/opt/conda/lib]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib] ==> [/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib]
+  collapse library dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..] ==> [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib/gcc/x86_64-redhat-linux/5.3.1;/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib/gcc;/cvmfs/dampe.cern.ch/centos7/lib64;/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib64;/lib64;/usr/lib64;/cvmfs/dampe.cern.ch/centos7/lib;/cvmfs/dampe.cern.ch/centos7/opt/conda/lib;/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib;/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_49ffe/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_49ffe.dir/build.make CMakeFiles/cmTC_49ffe.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49ffe.dir/feature_tests.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_49ffe.dir/feature_tests.cxx.o -c /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_49ffe
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49ffe.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_49ffe.dir/feature_tests.cxx.o  -o cmTC_49ffe 
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_87c1c/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_87c1c.dir/build.make CMakeFiles/cmTC_87c1c.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87c1c.dir/feature_tests.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_87c1c.dir/feature_tests.cxx.o -c /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_87c1c
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87c1c.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_87c1c.dir/feature_tests.cxx.o  -o cmTC_87c1c 
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_0d2e5/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_0d2e5.dir/build.make CMakeFiles/cmTC_0d2e5.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d2e5.dir/feature_tests.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_0d2e5.dir/feature_tests.cxx.o -c /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0d2e5
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d2e5.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_0d2e5.dir/feature_tests.cxx.o  -o cmTC_0d2e5 
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/rh/devtoolset-8/root/usr/bin/gmake" "cmTC_20efa/fast"
+/opt/rh/devtoolset-8/root/usr/bin/gmake -f CMakeFiles/cmTC_20efa.dir/build.make CMakeFiles/cmTC_20efa.dir/build
+gmake[1]: Entering directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20efa.dir/feature_tests.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_20efa.dir/feature_tests.cxx.o -c /local/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_20efa
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20efa.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_20efa.dir/feature_tests.cxx.o  -o cmTC_20efa 
+gmake[1]: Leaving directory '/beegfs1/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Linux - 4.18.0-513.11.1.el8_9.x86_64 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc 
 Build flags: 
@@ -28,28 +661,28 @@ The CXX compiler identification is GNU, found in "/home/users/c/coppinp/bee/Gean
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_2a74a/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_2a74a.dir/build.make CMakeFiles/cmTC_2a74a.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_a91aa/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a91aa.dir/build.make CMakeFiles/cmTC_a91aa.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2a74a.dir/testCCompiler.c.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_2a74a.dir/testCCompiler.c.o   -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_2a74a
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a74a.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_2a74a.dir/testCCompiler.c.o  -o cmTC_2a74a 
+Building C object CMakeFiles/cmTC_a91aa.dir/testCCompiler.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_a91aa.dir/testCCompiler.c.o   -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a91aa
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a91aa.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_a91aa.dir/testCCompiler.c.o  -o cmTC_a91aa 
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_fbf20/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_fbf20.dir/build.make CMakeFiles/cmTC_fbf20.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_d15b9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d15b9.dir/build.make CMakeFiles/cmTC_d15b9.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fbf20.dir/CMakeCCompilerABI.c.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_fbf20.dir/CMakeCCompilerABI.c.o   -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_fbf20
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf20.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_fbf20.dir/CMakeCCompilerABI.c.o  -o cmTC_fbf20 
+Building C object CMakeFiles/cmTC_d15b9.dir/CMakeCCompilerABI.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_d15b9.dir/CMakeCCompilerABI.c.o   -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d15b9
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d15b9.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_d15b9.dir/CMakeCCompilerABI.c.o  -o cmTC_d15b9 
 Using built-in specs.
 COLLECT_GCC=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper
@@ -59,8 +692,8 @@ Thread model: posix
 gcc version 5.3.1 20160406 (Red Hat 5.3.1-6) (GCC) 
 COMPILER_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/
 LIBRARY_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/:/cvmfs/dampe.cern.ch/centos7/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib64/../lib64/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib/:/cvmfs/dampe.cern.ch/centos7/lib64/:/cvmfs/dampe.cern.ch/centos7/opt/conda/lib/:/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib/:./:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fbf20' '-mtune=generic' '-march=x86-64'
- /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAYxZ38.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fbf20 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_fbf20.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d15b9' '-mtune=generic' '-march=x86-64'
+ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctT0qJz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d15b9 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_d15b9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +701,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_fbf20/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_fbf20.dir/build.make CMakeFiles/cmTC_fbf20.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d15b9/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d15b9.dir/build.make CMakeFiles/cmTC_d15b9.dir/build]
   ignore line: [gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_fbf20.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_fbf20.dir/CMakeCCompilerABI.c.o   -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_fbf20]
-  ignore line: [/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf20.dir/link.txt --verbose=1]
-  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_fbf20.dir/CMakeCCompilerABI.c.o  -o cmTC_fbf20 ]
+  ignore line: [Building C object CMakeFiles/cmTC_d15b9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc    -o CMakeFiles/cmTC_d15b9.dir/CMakeCCompilerABI.c.o   -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d15b9]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d15b9.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_d15b9.dir/CMakeCCompilerABI.c.o  -o cmTC_d15b9 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper]
@@ -85,13 +718,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.3.1 20160406 (Red Hat 5.3.1-6) (GCC) ]
   ignore line: [COMPILER_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/:/cvmfs/dampe.cern.ch/centos7/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib64/../lib64/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib/:/cvmfs/dampe.cern.ch/centos7/lib64/:/cvmfs/dampe.cern.ch/centos7/opt/conda/lib/:/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib/:./:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fbf20' '-mtune=generic' '-march=x86-64']
-  link line: [ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAYxZ38.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fbf20 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_fbf20.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d15b9' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctT0qJz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d15b9 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_d15b9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o]
     arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccAYxZ38.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctT0qJz.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -107,7 +740,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fbf20] ==> ignore
+    arg [cmTC_d15b9] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o] ==> ignore
@@ -124,7 +757,7 @@ Parsed C implicit link information from above output:
     arg [-L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib]
     arg [-L.] ==> ignore
     arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..]
-    arg [CMakeFiles/cmTC_fbf20.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d15b9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -158,14 +791,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e6db3/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e6db3.dir/build.make CMakeFiles/cmTC_e6db3.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_4d1eb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4d1eb.dir/build.make CMakeFiles/cmTC_4d1eb.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e6db3.dir/feature_tests.c.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_e6db3.dir/feature_tests.c.o   -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e6db3
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6db3.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_e6db3.dir/feature_tests.c.o  -o cmTC_e6db3 
+Building C object CMakeFiles/cmTC_4d1eb.dir/feature_tests.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_4d1eb.dir/feature_tests.c.o   -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4d1eb
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d1eb.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_4d1eb.dir/feature_tests.c.o  -o cmTC_4d1eb 
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
@@ -178,14 +811,14 @@ gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/bui
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_5bd2a/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_5bd2a.dir/build.make CMakeFiles/cmTC_5bd2a.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_48b2c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_48b2c.dir/build.make CMakeFiles/cmTC_48b2c.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5bd2a.dir/feature_tests.c.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_5bd2a.dir/feature_tests.c.o   -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5bd2a
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bd2a.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_5bd2a.dir/feature_tests.c.o  -o cmTC_5bd2a 
+Building C object CMakeFiles/cmTC_48b2c.dir/feature_tests.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_48b2c.dir/feature_tests.c.o   -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_48b2c
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48b2c.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_48b2c.dir/feature_tests.c.o  -o cmTC_48b2c 
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
@@ -198,14 +831,14 @@ gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/bui
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c9171/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_c9171.dir/build.make CMakeFiles/cmTC_c9171.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_f830b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f830b.dir/build.make CMakeFiles/cmTC_f830b.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c9171.dir/feature_tests.c.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_c9171.dir/feature_tests.c.o   -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c9171
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9171.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_c9171.dir/feature_tests.c.o  -o cmTC_c9171 
+Building C object CMakeFiles/cmTC_f830b.dir/feature_tests.c.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_f830b.dir/feature_tests.c.o   -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f830b
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f830b.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_f830b.dir/feature_tests.c.o  -o cmTC_f830b 
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
@@ -216,28 +849,28 @@ gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/bui
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_44e81/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_44e81.dir/build.make CMakeFiles/cmTC_44e81.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_c336c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c336c.dir/build.make CMakeFiles/cmTC_c336c.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_44e81.dir/testCXXCompiler.cxx.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++     -o CMakeFiles/cmTC_44e81.dir/testCXXCompiler.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_44e81
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44e81.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_44e81.dir/testCXXCompiler.cxx.o  -o cmTC_44e81 
+Building CXX object CMakeFiles/cmTC_c336c.dir/testCXXCompiler.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++     -o CMakeFiles/cmTC_c336c.dir/testCXXCompiler.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c336c
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c336c.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_c336c.dir/testCXXCompiler.cxx.o  -o cmTC_c336c 
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f9a90/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f9a90.dir/build.make CMakeFiles/cmTC_f9a90.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_195f1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_195f1.dir/build.make CMakeFiles/cmTC_195f1.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f9a90.dir/CMakeCXXCompilerABI.cpp.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++     -o CMakeFiles/cmTC_f9a90.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f9a90
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a90.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_f9a90.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f9a90 
+Building CXX object CMakeFiles/cmTC_195f1.dir/CMakeCXXCompilerABI.cpp.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++     -o CMakeFiles/cmTC_195f1.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_195f1
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_195f1.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_195f1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_195f1 
 Using built-in specs.
 COLLECT_GCC=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++
 COLLECT_LTO_WRAPPER=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper
@@ -247,8 +880,8 @@ Thread model: posix
 gcc version 5.3.1 20160406 (Red Hat 5.3.1-6) (GCC) 
 COMPILER_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/
 LIBRARY_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/:/cvmfs/dampe.cern.ch/centos7/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib64/../lib64/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib/:/cvmfs/dampe.cern.ch/centos7/lib64/:/cvmfs/dampe.cern.ch/centos7/opt/conda/lib/:/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib/:./:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f9a90' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc08FbYX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f9a90 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_f9a90.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_195f1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7C67t0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_195f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_195f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
@@ -256,14 +889,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_f9a90/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_f9a90.dir/build.make CMakeFiles/cmTC_f9a90.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_195f1/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_195f1.dir/build.make CMakeFiles/cmTC_195f1.dir/build]
   ignore line: [gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f9a90.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++     -o CMakeFiles/cmTC_f9a90.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_f9a90]
-  ignore line: [/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a90.dir/link.txt --verbose=1]
-  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_f9a90.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f9a90 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_195f1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++     -o CMakeFiles/cmTC_195f1.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/dampe.cern.ch/centos7/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_195f1]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_195f1.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_195f1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_195f1 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper]
@@ -273,13 +906,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.3.1 20160406 (Red Hat 5.3.1-6) (GCC) ]
   ignore line: [COMPILER_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/:/cvmfs/dampe.cern.ch/centos7/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib64/../lib64/:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/dampe.cern.ch/centos7/lib/:/cvmfs/dampe.cern.ch/centos7/lib64/:/cvmfs/dampe.cern.ch/centos7/opt/conda/lib/:/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib/:./:/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f9a90' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc08FbYX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f9a90 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_f9a90.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_195f1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2 -plugin /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so -plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7C67t0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_195f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc -L/cvmfs/dampe.cern.ch/centos7/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib64/../lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/dampe.cern.ch/centos7/lib -L/cvmfs/dampe.cern.ch/centos7/lib64 -L/cvmfs/dampe.cern.ch/centos7/opt/conda/lib -L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib -L. -L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../.. CMakeFiles/cmTC_195f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtend.o /lib/../lib64/crtn.o]
     arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../libexec/gcc/x86_64-redhat-linux/5.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc08FbYX.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7C67t0.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -295,7 +928,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f9a90] ==> ignore
+    arg [cmTC_195f1] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/crtbegin.o] ==> ignore
@@ -312,7 +945,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/mysql-connector-c-6.1.11-linux-glibc2.12-x86_64/lib]
     arg [-L.] ==> ignore
     arg [-L/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..] ==> dir [/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/../lib/gcc/x86_64-redhat-linux/5.3.1/../../..]
-    arg [CMakeFiles/cmTC_f9a90.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_195f1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +977,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_df696/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_df696.dir/build.make CMakeFiles/cmTC_df696.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_b37ce/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b37ce.dir/build.make CMakeFiles/cmTC_b37ce.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_df696.dir/feature_tests.cxx.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_df696.dir/feature_tests.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_df696
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df696.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_df696.dir/feature_tests.cxx.o  -o cmTC_df696 
+Building CXX object CMakeFiles/cmTC_b37ce.dir/feature_tests.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_b37ce.dir/feature_tests.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b37ce
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b37ce.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_b37ce.dir/feature_tests.cxx.o  -o cmTC_b37ce 
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +1050,14 @@ gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/bui
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_807e3/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_807e3.dir/build.make CMakeFiles/cmTC_807e3.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_7266b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7266b.dir/build.make CMakeFiles/cmTC_7266b.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_807e3.dir/feature_tests.cxx.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_807e3.dir/feature_tests.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_807e3
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_807e3.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_807e3.dir/feature_tests.cxx.o  -o cmTC_807e3 
+Building CXX object CMakeFiles/cmTC_7266b.dir/feature_tests.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_7266b.dir/feature_tests.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7266b
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7266b.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_7266b.dir/feature_tests.cxx.o  -o cmTC_7266b 
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +1123,14 @@ gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/bui
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cfe68/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cfe68.dir/build.make CMakeFiles/cmTC_cfe68.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_98734/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_98734.dir/build.make CMakeFiles/cmTC_98734.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cfe68.dir/feature_tests.cxx.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_cfe68.dir/feature_tests.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cfe68
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfe68.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_cfe68.dir/feature_tests.cxx.o  -o cmTC_cfe68 
+Building CXX object CMakeFiles/cmTC_98734.dir/feature_tests.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_98734.dir/feature_tests.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_98734
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98734.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_98734.dir/feature_tests.cxx.o  -o cmTC_98734 
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +1196,14 @@ gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/bui
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cad74/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cad74.dir/build.make CMakeFiles/cmTC_cad74.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_f2316/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f2316.dir/build.make CMakeFiles/cmTC_f2316.dir/build
 gmake[1]: Entering directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cad74.dir/feature_tests.cxx.o
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_cad74.dir/feature_tests.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cad74
-/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cad74.dir/link.txt --verbose=1
-/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_cad74.dir/feature_tests.cxx.o  -o cmTC_cad74 
+Building CXX object CMakeFiles/cmTC_f2316.dir/feature_tests.cxx.o
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_f2316.dir/feature_tests.cxx.o -c /home/users/c/coppinp/bee/GeantExamples/Hadr00/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f2316
+/cvmfs/dampe.cern.ch/centos7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2316.dir/link.txt --verbose=1
+/cvmfs/dampe.cern.ch/centos7/opt/rh/devtoolset-4/root/usr/bin/g++       -rdynamic CMakeFiles/cmTC_f2316.dir/feature_tests.cxx.o  -o cmTC_f2316 
 gmake[1]: Leaving directory '/dpnc/beegfs/users/coppinp/GeantExamples/Hadr00/build/CMakeFiles/CMakeTmp'
 
 
