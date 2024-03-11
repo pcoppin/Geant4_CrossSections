@@ -1,0 +1,36 @@
+#
+# Macro file for "Hadr03.cc"
+#
+/control/verbose 0
+/run/verbose 2
+#
+/testhadr/det/setMat G4_Bi
+#
+/run/initialize
+#
+
+#/gun/particle proton
+#/gun/particle alpha
+#/gun/particle neutron
+#/gun/particle anti_proton
+
+
+/gun/particle ion
+/gun/ion 6 12
+
+
+/gun/energy 1 TeV
+#
+/process/list
+/process/inactivate hadElastic
+#
+/analysis/setFileName inelastic
+/analysis/h1/set 2  100  0. 8000 keV	#gamma
+/analysis/h1/set 8  100  0.  400 keV	#nuclei
+/analysis/h1/set 11 100 -10  +0  MeV	#Q
+/analysis/h1/set 14 100   0   1  TeV	#Emax sec
+/analysis/h1/set 15 100   0   1  TeV	#Emax sec same as primary
+# type n_bins min_bin max_bin
+### Sim 1e4 events and print progress after every 1e3 events
+/run/printProgress 10000
+/run/beamOn 1000000

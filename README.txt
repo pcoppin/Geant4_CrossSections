@@ -32,6 +32,7 @@ Examples copied from /cvmfs/dampe.cern.ch/centos7/opt/geant4/share/Geant4-10.5.1
     cd ~/bee/GeantExamples/Hadr00/build_G11/Hadr00/build/
     ls
     cmake ..
+    make
 
 * Run the compiled binary:
     - For a single target: ./Hadr00 hadr00_custom.in FTFP > hadr00.out
@@ -55,16 +56,10 @@ source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-centos7-gcc11-opt/setup.sh
 cd ~/bee/GeantExamples/Hadr00/build_G11/Hadr00/build/
 ls
 cmake ..
+make
 
 
-- B1 example: requires visuals and does not appear to work on the cluster
-- Hadr00 example:
-    Will generate cross sections
-    > ./Hadr00 hadr00.in QGSP_BERT > hadr00.out
-      ./Hadr00 hadr00_custom.in FTFP > hadr00.out
-        i.e. program inputfile physicsmodel > outputfile
-        Hadr01:
-            Consistency check that results is independent of /testhadr/TargetRadius, /testhadr/TargetLength, and /gun/energy
+
 
 Geant4 docu: https://geant4-dev.web.cern.ch/docs/
 Materials: https://www.fe.infn.it/u/paterno/Geant4_tutorial/slides_further/Geometry/G4_Nist_Materials.pdf
