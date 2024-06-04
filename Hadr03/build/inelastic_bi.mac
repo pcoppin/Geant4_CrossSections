@@ -9,14 +9,14 @@
 /run/initialize
 #
 
-#/gun/particle proton
+/gun/particle proton
 #/gun/particle alpha
 #/gun/particle neutron
 #/gun/particle anti_proton
 
 
-/gun/particle ion
-/gun/ion 6 12
+#/gun/particle ion
+#/gun/ion 6 12
 
 
 /gun/energy 1 TeV
@@ -32,5 +32,5 @@
 /analysis/h1/set 15 100   0   1  TeV	#Emax sec same as primary
 # type n_bins min_bin max_bin
 ### Sim 1e4 events and print progress after every 1e3 events
-/run/printProgress 10000
-/run/beamOn 1000000
+/run/printProgress 1000
+/run/beamOn 20000

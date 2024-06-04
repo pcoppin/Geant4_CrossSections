@@ -97,9 +97,8 @@ PhysicsList::PhysicsList()
 
 
   // Customisation: Use FTFP_BERT as in DAMPE simulation
-  RegisterPhysics( new G4HadronPhysicsFTFP_BERT(verb));
-
-
+  //RegisterPhysics( new G4HadronPhysicsFTFP_BERT(verb));
+  RegisterPhysics( new G4HadronPhysicsFTFP_BERT("hInelastic FTFP_BERT",false) );
 
 
 

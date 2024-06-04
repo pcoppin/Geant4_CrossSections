@@ -6,5 +6,5 @@ CXX_FLAGS = -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-stri
 
 CXX_DEFINES = -DG4INTY_USE_XT -DG4LIB_BUILD_DLL -DG4UI_USE -DG4UI_USE_TCSH -DG4VERBOSE -DG4VIS_USE -DG4VIS_USE_OPENGL -DG4VIS_USE_OPENGLX -DG4_STORE_TRAJECTORY
 
-CXX_INCLUDES = -isystem /cvmfs/dampe.cern.ch/centos7/opt/geant4/include/Geant4 -isystem /cvmfs/dampe.cern.ch/centos7/include -I/home/users/c/coppinp/bee/GeantExamples/Hadr00/include 
+CXX_INCLUDES = -isystem /cvmfs/dampe.cern.ch/centos7/opt/geant4/include/Geant4 -isystem /cvmfs/dampe.cern.ch/centos7/include -I/local/coppinp/bee/GeantExamples/Hadr00/include 
 

@@ -4,16 +4,24 @@ source /cvmfs/sft.cern.ch/lcg/releases/gcc/11.2.0/x86_64-centos7/setup.sh
 source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-centos7-gcc11-opt/setup.sh 
 cd build
 cmake ..; make
-./Hadr03 inelastic_bi.mac 5 > Hadr03.log
-### i.e. run on 5 cores
+./Hadr03 inelastic_bi.mac 32 > Hadr03.log
+### i.e. run on 32 cores
 
+
+--> For running the version for Geant4.10.5p01
+source /cvmfs/sft.cern.ch/lcg/releases/gcc/6.3.0/x86_64-centos7/setup.sh 
+source /cvmfs/geant4.cern.ch/geant4/10.5.p01/x86_64-centos7-gcc63-opt-MT/CMake-setup.sh 
+cd /beegfs/users/coppinp/GeantExamples/Hadr03_G4.10.5p01/build
+cmake3 ..; make
+./Hadr03 inelastic_bi.mac 5 > Hadr03.log
 
 
 Modified:
+    run.cc
     HistoManager.cc
     SteppingAction.cc
     Physics.cc
-
+    (and corresponding hh files)
 
 
      =========================================================

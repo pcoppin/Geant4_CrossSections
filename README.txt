@@ -7,7 +7,7 @@ Examples copied from /cvmfs/dampe.cern.ch/centos7/opt/geant4/share/Geant4-10.5.1
 
 * First set the particle on which to run:
     - Go modify Hadr00/src/HistoManager.cc to select either default particles (proton/alpha) or ions
-    - For proton and alpha, set /testhadr/particle in Gen_input_file.py to either 'proton' or 'alpha'
+    - For proton and alpha, set /testhadr/particle in Gen_input_file.py to either 'proton' or 'alpha' or 'deuteron'
     - For ions, choose ion in HistoManager.cc according to instructions there
 
 * Compile the Geant4 example for the chosen particle:
