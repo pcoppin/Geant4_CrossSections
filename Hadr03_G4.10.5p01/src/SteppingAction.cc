@@ -89,7 +89,8 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
     
     
   G4String primaryName = particle->GetParticleName();  
-    
+  // const G4String id_primary = particle->GetPDGEncoding();
+  std::cout << "Paul, primary name:" << primaryName << std::endl;
     
     
     
@@ -168,11 +169,29 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
     
   // Customisation: fill an array with the energy of the most energetic secondary
   G4double max_energy = 0.0;
+  bool HasPionsKaons = false;
   G4String Type_max_E_sec;
   for (size_t lp=0; lp<(*secondary).size(); lp++) {
     particle = (*secondary)[lp]->GetDefinition(); 
     G4String name   = particle->GetParticleName();
-    G4String type   = particle->GetParticleType();      
+    G4String type   = particle->GetParticleType();
+
+    // const G4String id_sec = particle->GetPDGEncoding();
+    bool found_pi_plus = (name.compare("pi+")==0);
+    bool found_pi_min  = (name.compare("pi-")==0);
+    bool found_pi_zero = (name.compare("pi0")==0);
+    bool found_kaon = (name.find("kaon")!=std::string::npos);
+    // Code below used to remove most common secondaries and look at more interesting ones
+    // bool found_proton = (name.compare("proton")==0);
+    // bool found_neutron = (name.compare("neutron")==0);
+    // bool found_gamma = (name.compare("gamma")==0);
+
+    if( found_pi_plus || found_pi_min || found_pi_zero || found_kaon ){ 
+        // std::cout << "Paul, found:" << name << std::endl;
+        HasPionsKaons = true;}
+    // else{
+    //     std::cout << "Paull, had secondary ID:" << name << std::endl;}
+    
     G4double energy = (*secondary)[lp]->GetKineticEnergy();
     if( energy>max_energy ){
       max_energy = energy;
@@ -181,7 +200,7 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
   }
   ih = 13;       
   analysis->FillH1(ih,max_energy);
-  if( Type_max_E_sec==primaryName ){
+  if( (Type_max_E_sec==primaryName) && (!HasPionsKaons) ){
     ih = 14;
     analysis->FillH1(ih,max_energy);
   }

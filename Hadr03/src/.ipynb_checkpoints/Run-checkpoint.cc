@@ -341,22 +341,22 @@ void Run::EndOfRun(G4bool print)
 
 
     
-  //nuclear channel count
-  //
-  G4cout << "\n List of nuclear reactions: \n" << G4endl; 
-  std::map<G4String,NuclChannel>::iterator ic;               
-  for (ic = fNuclChannelMap.begin(); ic != fNuclChannelMap.end(); ic++) { 
-    G4String name    = ic->first;
-    NuclChannel data = ic->second;
-    G4int count = data.fCount;
-    G4double Q  = data.fQ/count; 
-    G4double Emax = data.fEmax/count; 
-    if( print * (Emax>9e5) )  // Emax is in MeV       
-      G4cout << "  " << name << ": " << G4endl << std::setw(10) << count
-             << "   Q = " << std::setw(wid) << G4BestUnit(Q, "Energy")
-             << "   Emax = " << std::setw(wid) << G4BestUnit(Emax, "Energy") << "   " << Emax
-             << G4endl;           
-  } 
+  // //nuclear channel count
+  // //
+  // G4cout << "\n List of nuclear reactions: \n" << G4endl; 
+  // std::map<G4String,NuclChannel>::iterator ic;               
+  // for (ic = fNuclChannelMap.begin(); ic != fNuclChannelMap.end(); ic++) { 
+  //   G4String name    = ic->first;
+  //   NuclChannel data = ic->second;
+  //   G4int count = data.fCount;
+  //   G4double Q  = data.fQ/count; 
+  //   G4double Emax = data.fEmax/count; 
+  //   if( print * (Emax>9e5) )  // Emax is in MeV       
+  //     G4cout << "  " << name << ": " << G4endl << std::setw(10) << count
+  //            << "   Q = " << std::setw(wid) << G4BestUnit(Q, "Energy")
+  //            << "   Emax = " << std::setw(wid) << G4BestUnit(Emax, "Energy") << "   " << Emax
+  //            << G4endl;           
+  // } 
 
 
 

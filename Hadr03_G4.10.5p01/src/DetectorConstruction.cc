@@ -89,7 +89,7 @@ void DetectorConstruction::DefineMaterials()
     
  G4Element* Bi = new G4Element("Bismuth"   ,"Bi" , 83., 208.98*g/mole);
  G4Element* Ge = new G4Element("Germanium" ,"Ge" , 32., 72.64*g/mole);
- G4Element* O = new G4Element("Oxygen"     ,"O"  , 8., 12.00*g/mole);
+ G4Element* O = new G4Element("Oxygen"     ,"O"  , 8., 16.00*g/mole);
     
  G4Material* ne213 = 
  new G4Material("NE213", 0.874*g/cm3, 2);
